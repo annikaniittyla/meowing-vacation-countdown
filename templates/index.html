@@ -1,0 +1,11 @@
+<!-- index.html -->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<form action="/countdown" method="POST">
+    <label for="date">Enter the start date of your vacation:</label>
+    <input type="date" id="date" name="date" required>
+    <input type="submit" value="Count days left">
+</form>

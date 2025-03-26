@@ -1,0 +1,9 @@
+<!-- countdown.html -->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<h1>Countdown</h1>
+<p>There are {{ days_left }} days left until your vacation!</p>
+<img class="cat-image" src="{{ url_for('static', filename='cat.jpeg') }}" alt="Kitten in a sink">
